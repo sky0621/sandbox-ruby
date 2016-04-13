@@ -6,6 +6,8 @@ class FizzBuzz
 			p "Fizz!"
 		elsif num % 5 == 0
 			p "Buzz!"
+		elsif num.to_s.include? '7'
+			p "include 7!"
 		else
 			p num
 		end
